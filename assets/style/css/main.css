@@ -19,3 +19,130 @@ button {
 * {
   font-family: "Open Sans", sans-serif;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2549019608);
+}
+nav .nav_ls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+nav .nav_ls .menu_bar {
+  cursor: pointer;
+}
+nav .nav_ls a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav .nav_ls a img {
+  width: 28px;
+  object-fit: cover;
+}
+nav .nav_ls a span {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #5f6368;
+}
+nav .nav_ls a:hover span {
+  text-decoration: underline;
+  color: rgb(30, 142, 62);
+}
+nav .nav_rs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav .nav_rs i {
+  padding: 4px;
+  font-size: 20px;
+}
+nav .nav_rs svg {
+  padding: 4px;
+}
+nav .nav_rs img {
+  width: 40px;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+@media only screen and (max-width: 450px) {
+  nav .nav_rs svg {
+    display: none;
+  }
+  nav .nav_rs img {
+    display: none;
+  }
+}
+#sidenav {
+  width: 300px;
+  border-right: 0.1px solid rgba(0, 0, 0, 0.2549019608);
+  background-color: #fff;
+  padding: 8px 0;
+  height: calc(100vh - 60px);
+  position: fixed;
+  left: 0%;
+  top: 60px;
+  transition-duration: 500ms;
+}
+#sidenav div div {
+  display: flex;
+  align-items: center;
+}
+#sidenav div div i {
+  font-size: 20px;
+  color: #3c4043;
+  margin: 20px;
+}
+#sidenav div div span {
+  font-size: 16px;
+  color: #fff;
+  background-color: #3c4043;
+  border-radius: 50%;
+  padding: 4px 10px;
+  display: inline-block;
+  margin: 20px 16px;
+}
+#sidenav div div a {
+  transition-duration: 300ms;
+  color: #3c4043;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+#sidenav div .sidenav_class_sec_hidden {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+}
+#sidenav hr {
+  border: 0.1px solid rgba(0, 0, 0, 0.2549019608);
+}
+
+.closed_nav {
+  width: 80px !important;
+}
+.closed_nav div div a {
+  font-size: 0.1rem !important;
+  line-height: 0.25rem !important;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+
+.nav_elem_hidden {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+}
