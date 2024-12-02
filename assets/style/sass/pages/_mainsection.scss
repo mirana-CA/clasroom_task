@@ -1,0 +1,126 @@
+// main section start 
+.mainsection {
+    width: 100%;
+
+    .mainsection_classbox {
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        margin: 10px;
+        margin-right: 10px;
+       
+        border: 0.5px solid rgb(163, 156, 156);
+        position: relative;
+        
+
+        .mainsection_classbox_img {
+            width: 100%;
+            height: 100px;
+            background-color: gray;
+            display: flex;
+            border-radius: 10px 10px 0 0;
+            justify-content: space-between;
+
+            p i {
+                margin: 15px;
+                font-size: 23px;
+                cursor: pointer;
+            }
+
+            .mainsection_classbox_img_text {
+                h2 {
+                    margin: 8px;
+                    cursor: pointer;
+                }
+
+                p {
+                    margin: 8px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+        .mainsection_classbox_spacebox {
+            height: 137px;
+            width: 100%;
+            background-color: white;
+            border: 0.5px solid rgb(163, 156, 156);
+        }
+
+        .mainsection_classbox_bottom {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            justify-content: end;
+            transition: 400ms;
+            padding-top: 5px;
+            padding-right: 5px;
+
+            div {
+                height: 49px;
+                width: 49px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            div:hover{
+                background-color: rgb(230, 228, 228);
+            }
+
+            i {
+                cursor: pointer;
+            }
+
+        }
+
+        .mainsection_profile_pic {
+            height: 75px;
+            width: 75px;
+            border-radius: 50%;
+            background-color: aquamarine;
+            position: absolute;
+            z-index: 1;
+            top: 65px;
+            right: 15px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .leave_course{
+           
+            
+            background-color: white;
+            position: absolute;
+            top: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            right: -110px;
+            z-index: 1;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: none;
+            padding: 20px 20px;
+
+
+        }
+        .text_box{
+            display: block;
+           
+        }
+        
+    }
+}
+
+
+
+
+// main section end 
