@@ -20,22 +20,29 @@
       display: flex;
       border-radius: 10px 10px 0 0;
       justify-content: space-between;
+      background-image:url("https://www.gstatic.com/classroom/themes/Honors.jpg") ;
+      background-size: cover;
 
       p i {
         margin: 15px;
         font-size: 23px;
         cursor: pointer;
+        color: white;
       }
 
       .mainsection_classbox_img_text {
         h2 {
           margin: 8px;
           cursor: pointer;
+          color: white;
+          margin-left: 15px;
         }
 
         p {
-          margin: 8px;
+          margin-left: 15px;
           cursor: pointer;
+          color: white;
+          margin-top: 20px;
         }
       }
     }
