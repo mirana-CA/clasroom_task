@@ -1,0 +1,28 @@
+// calendar sectio start
+.calendar_section {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .calendar_section_top {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .select_opt {
+      height: 48px;
+      width: 340px;
+    }
+
+    .calendar_section_top_date {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        margin-bottom: 3px;
+      }
+    }
+  }
+}
+// calendar section  end

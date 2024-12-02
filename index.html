@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -48,54 +49,82 @@
       </nav>
     </header>
 
-    <aside id="sidenav">
-        <div class="sidenav_main_sec">
-            <div class="sidenav_elem">
-                <i class="fa-solid fa-house"></i>
-                <a href="/index.html">Home</a>
-            </div>
-            <div class="sidenav_elem">
-                <i class="fa-regular fa-calendar"></i>
-                <a href="/calendar.html">Calendar</a>
-            </div>
-        </div>
-        <hr>
-        <div class="sidenav_class_sec">
-            <div class="sidenav_elem enrolled">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <a href="#">Enrolled</a>
-            </div>
-         
-            <div class="sidenav_class_sec_hidden">
+
+    <main>
+        <!-- ASIDE START  -->
+
+           <aside id="sidenav">
+            <div class="sidenav_main_sec">
                 <div class="sidenav_elem">
-                    <i class="fa-solid fa-book-open"></i>
-                    <a href="/todo.html">To-Do</a>
+                    <i class="fa-solid fa-house"></i>
+                    <a href="/index.html">Home</a>
                 </div>
-         
-           
                 <div class="sidenav_elem">
-                   <span>B</span>
-                    <a href="/bp216.html">BP216</a>
+                    <i class="fa-regular fa-calendar"></i>
+                    <a href="/calendar.html">Calendar</a>
                 </div>
             </div>
-          
-        </div>
-        <hr>
-        <div class="sidenav_adds_sec">
-            <div class="sidenav_elem">
-                <i class="fa-solid fa-inbox"></i>
-                <a href="/index.html">Archived classes</a>
+            <hr>
+            <div class="sidenav_class_sec">
+                <div class="sidenav_elem enrolled">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <a href="#">Enrolled</a>
+                </div>
+             
+                <div class="sidenav_class_sec_hidden">
+                    <div class="sidenav_elem">
+                        <i class="fa-solid fa-book-open"></i>
+                        <a href="/todo.html">To-Do</a>
+                    </div>
+             
+               
+                    <div class="sidenav_elem">
+                       <span>B</span>
+                        <a href="/bp216.html">BP216</a>
+                    </div>
+                </div>
+              
             </div>
-            <div class="sidenav_elem">
-                <i class="fa-solid fa-gear"></i>
-                <a href="/index.html">Settings</a>
+            <hr>
+            <div class="sidenav_adds_sec">
+                <div class="sidenav_elem">
+                    <i class="fa-solid fa-inbox"></i>
+                    <a href="/index.html">Archived classes</a>
+                </div>
+                <div class="sidenav_elem">
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="/index.html">Settings</a>
+                </div>
             </div>
-        </div>
+    
+        </aside>
+        <!-- ASIDE END  -->
 
-    </aside>
-
+        <section class="mainsection">
+          <div class="mainsection_classbox">
+            <div class="mainsection_classbox_img">
+              <div class="mainsection_classbox_img_text">
+                <h2>Bp-216</h2>
+                <p>Fariz Esedov</p>
+              </div>
+              <p  ><i class="fa-solid fa-ellipsis-vertical leave_course_icon"></i></p>
+            </div>
+            <div class="mainsection_classbox_spacebox"></div>
+            <div class="mainsection_classbox_bottom">
+              <div><i class="fa-regular fa-id-badge"></i></div>
+              <div><i class="fa-regular fa-folder"></i></div>
+            </div>
+            <div class="mainsection_profile_pic"> <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Unknown_person.jpg" alt=""></div>
+                <div class="leave_course">Kursu terk edin</div>
+          </div>
+        </section>
+       
+      </main>
+    
 
     <script src="./assets/js/aside.js"></script>
+    <script src="./assets/js/leave_course.js"></script>
   </body>
 </html>
 

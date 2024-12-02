@@ -16,6 +16,10 @@ button {
   cursor: pointer;
 }
 
+main {
+  display: flex;
+}
+
 * {
   font-family: "Open Sans", sans-serif;
 }
@@ -91,7 +95,7 @@ nav .nav_rs img {
   background-color: #fff;
   padding: 8px 0;
   height: calc(100vh - 60px);
-  position: fixed;
+  position: sticky;
   left: 0%;
   top: 60px;
   transition-duration: 500ms;
@@ -145,4 +149,125 @@ nav .nav_rs img {
   opacity: 0;
   visibility: hidden;
   height: 0;
+}
+
+.mainsection {
+  width: 100%;
+}
+.mainsection .mainsection_classbox {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-right: 10px;
+  border: 0.5px solid rgb(163, 156, 156);
+  position: relative;
+}
+.mainsection .mainsection_classbox .mainsection_classbox_img {
+  width: 100%;
+  height: 100px;
+  background-color: gray;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+  justify-content: space-between;
+}
+.mainsection .mainsection_classbox .mainsection_classbox_img p i {
+  margin: 15px;
+  font-size: 23px;
+  cursor: pointer;
+}
+.mainsection .mainsection_classbox .mainsection_classbox_img .mainsection_classbox_img_text h2 {
+  margin: 8px;
+  cursor: pointer;
+}
+.mainsection .mainsection_classbox .mainsection_classbox_img .mainsection_classbox_img_text p {
+  margin: 8px;
+  cursor: pointer;
+}
+.mainsection .mainsection_classbox .mainsection_classbox_spacebox {
+  height: 137px;
+  width: 100%;
+  background-color: white;
+  border: 0.5px solid rgb(163, 156, 156);
+}
+.mainsection .mainsection_classbox .mainsection_classbox_bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  justify-content: end;
+  transition: 400ms;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+.mainsection .mainsection_classbox .mainsection_classbox_bottom div {
+  height: 49px;
+  width: 49px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainsection .mainsection_classbox .mainsection_classbox_bottom div:hover {
+  background-color: rgb(230, 228, 228);
+}
+.mainsection .mainsection_classbox .mainsection_classbox_bottom i {
+  cursor: pointer;
+}
+.mainsection .mainsection_classbox .mainsection_profile_pic {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  position: absolute;
+  z-index: 1;
+  top: 65px;
+  right: 15px;
+  overflow: hidden;
+}
+.mainsection .mainsection_classbox .mainsection_profile_pic img {
+  width: 100%;
+  height: 100%;
+}
+.mainsection .mainsection_classbox .leave_course {
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  right: -110px;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: none;
+  padding: 20px 20px;
+}
+.mainsection .mainsection_classbox .text_box {
+  display: block;
+}
+
+.calendar_section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.calendar_section .calendar_section_top {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.calendar_section .calendar_section_top .select_opt {
+  height: 48px;
+  width: 340px;
+}
+.calendar_section .calendar_section_top .calendar_section_top_date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendar_section .calendar_section_top .calendar_section_top_date h3 {
+  margin-bottom: 3px;
 }
